@@ -15,3 +15,7 @@ body {
   overflow: hidden;
   font-family: 'Lato', sans-serif;
 }
+
+h1 {
+  position: relative;
+}
