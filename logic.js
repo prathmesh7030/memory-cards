@@ -9,3 +9,6 @@ const answerEl = document.getElementById('answer');
 const addCardBtn = document.getElementById('add-card');
 const clearBtn = document.getElementById('clear');
 const addContainer = document.getElementById('add-container');
+
+// Keep track of current card
+let currentActiveCard = 0;
