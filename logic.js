@@ -12,3 +12,6 @@ const addContainer = document.getElementById('add-container');
 
 // Keep track of current card
 let currentActiveCard = 0;
+
+// Store DOM cards
+const cardsEl = [];
