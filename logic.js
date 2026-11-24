@@ -15,3 +15,6 @@ let currentActiveCard = 0;
 
 // Store DOM cards
 const cardsEl = [];
+
+// Store card data
+const cardsData = getCardsData();
