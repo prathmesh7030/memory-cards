@@ -38,3 +38,12 @@ const cardsData = getCardsData();
 function createCards() {
   cardsData.forEach((data, index) => createCard(data, index));
 }
+
+// Create a single card in DOM
+function createCard(data, index) {
+  const card = document.createElement('div');
+  card.classList.add('card');
+
+  if (index === 0) {
+    card.classList.add('active');
+  }
